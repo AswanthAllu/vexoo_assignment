@@ -13,7 +13,7 @@ def home():
     try:
         # We use subprocess to run the exact same script you run locally
         result = subprocess.run(
-            ["python", "run.py"], 
+            ["python", "main.py"], 
             capture_output=True, 
             text=True, 
             encoding='utf-8',
