@@ -137,7 +137,7 @@ def run_ingestion_demo(query: str = None) -> None:
     demo_queries = [
         query or "neural network machine learning model",
         "legal contract liability regulation",
-        "calculate gradient loss derivative",
+        "calculate gradient loss derivatives",
     ]
 
     for q in demo_queries:
